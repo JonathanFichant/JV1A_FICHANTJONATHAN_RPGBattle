@@ -1,18 +1,3 @@
-/* Texte expliquant ce qu'il se passe a chaque action ainsi qu'une animation
-    setTimeout
-ATK, PV, MANA pour chaque perso affiches a l'ecran en permanence
-Si PV d'un heros <= 0, animation mort ou disparition sprite, passage permanent en true
-    Si PV de tous les heros <= 0 alors GAME OVER
-PV des monstres visible dans une infobulle quand on passe la souris sur leur sprite
-    Si PV d'un monstre <= O, animation mort ou disparition spirte, ne prend plus part aux ripostes
-    Si PV de tous les monstres <= 0 alors WIN
-Affichage d'un menu d'action quand un perso  est selectionne
-    3 actions par perso : Attaque, Defendre, Action Speciale (unique par perso)
-        Les actions speciales coutent du mana
-        cooldown d'un tour pour chaque action
-            une action en cooldown doit avoir un visuel (grisee par ex)*/
-// affecte la nouvelle image lorsque la souris survole l'élément function passageDelaSouris(element     )
-
 //Importation des variables de HTML
 pacman = document.getElementById("spritePacman");
 pacmanJR = document.getElementById("spritePacmanJR");
